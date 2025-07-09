@@ -176,6 +176,22 @@ export default function HomePage() {
                   Seu navegador não suporta o elemento de vídeo.
                 </video>
               </Card>
+              {/* Novos itens da galeria */}
+              <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
+                <video controls loop muted className="rounded-md object-cover w-full h-auto">
+                  <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Video%202025-07-09%20at%2013.20.28-0Xet5gMWzaycvLCIIZCNll1qrbxAB6.mp4" type="video/mp4" />
+                  Seu navegador não suporta o elemento de vídeo.
+                </video>
+              </Card>
+              <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
+                <Image
+                  src="/WhatsApp Image 2025-07-09 at 13.21.37.jpeg"
+                  width={300}
+                  height={300}
+                  alt="Óculos VR em suporte impresso em 3D"
+                  className="rounded-md object-cover w-full h-auto"
+                />
+              </Card>
             </div>
           </div>
         </section>
