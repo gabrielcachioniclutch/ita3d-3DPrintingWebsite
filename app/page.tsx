@@ -5,50 +5,16 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Mail, PhoneIcon as Whatsapp, MapPin } from "lucide-react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+import { VideoCarousel } from "@/components/video-carousel"
 
 export default function HomePage() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-1">
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-background text-foreground">
-          <div className="container px-4 md:px-6">
-            <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_550px]">
-              <div className="flex flex-col justify-center space-y-4">
-                <div className="space-y-2">
-                  <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                    Sua Visão 3D, Realizada.
-                  </h1>
-                  <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                    Transformamos suas ideias em realidade com serviços de impressão 3D de alta qualidade, projetos
-                    especializados e consultoria técnica.
-                  </p>
-                </div>
-                <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                  <Button asChild size="lg">
-                    <Link href="/orcamento">Solicitar Orçamento</Link>
-                  </Button>
-                  <Button
-                    asChild
-                    variant="outline"
-                    size="lg"
-                    className="border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent"
-                  >
-                    <Link href="#servicos">Nossos Serviços</Link>
-                  </Button>
-                </div>
-              </div>
-              <Image
-                src="/2025-03-243.webp"
-                width="550"
-                height="400"
-                alt="Impressora 3D em ação"
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
-              />
-            </div>
-          </div>
-        </section>
-
+        {" "}
+        {/* Removido o padding-top aqui */}
+        <VideoCarousel />
         <section id="servicos" className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -120,7 +86,6 @@ export default function HomePage() {
             </div>
           </div>
         </section>
-
         <section id="galeria" className="w-full py-12 md:py-24 lg:py-32 bg-background">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -176,7 +141,6 @@ export default function HomePage() {
                   Seu navegador não suporta o elemento de vídeo.
                 </video>
               </Card>
-              {/* Novos itens da galeria */}
               <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
                 <video controls loop muted className="rounded-md object-cover w-full h-auto">
                   <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Video%202025-07-09%20at%2013.20.28-0Xet5gMWzaycvLCIIZCNll1qrbxAB6.mp4" type="video/mp4" />
@@ -195,7 +159,6 @@ export default function HomePage() {
             </div>
           </div>
         </section>
-
         <section id="contato" className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
