@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 17% 97%; /* #F5F7FA (Soft light gray) */
+    --foreground: 215 28% 16%; /* #1F2937 (Dark gray) */
+
+    --card: 210 17% 97%; /* #F5F7FA (Same as background for cards) */
+    --card-foreground: 215 28% 16%;
+
+    --popover: 210 17% 97%;
+    --popover-foreground: 215 28% 16%;
+
+    --primary: 215 100% 56%; /* #1E90FF (Dodger Blue) */
+    --primary-foreground: 0 0% 100%; /* White for text on primary */
+
+    --secondary: 210 20% 90%; /* #E1E8ED (Cool gray) */
+    --secondary-foreground: 215 28% 16%;
+
+    --muted: 210 20% 90%; /* #E1E8ED (Cool gray) for muted elements */
+    --muted-foreground: 215 28% 16%; /* #1F2937 (Dark gray) for muted text */
+
+    --accent: 255 85% 72%; /* #7F5AF0 (Modern purple) */
+    --accent-foreground: 0 0% 100%; /* White for text on accent */
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 210 20% 90%; /* #E1E8ED (Cool gray) for borders */
+    --input: 210 17% 97%; /* #F5F7FA (Soft light gray) for input background */
+    --ring: 215 100% 56%; /* #1E90FF (Dodger Blue) for focus ring */
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* You can define a dark mode here if needed, but the current theme is light-first */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
