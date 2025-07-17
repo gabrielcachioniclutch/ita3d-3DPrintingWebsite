@@ -156,6 +156,25 @@ export default function HomePage() {
                   className="rounded-md object-cover w-full h-auto"
                 />
               </Card>
+              {/* Novas imagens adicionadas */}
+              <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
+                <Image
+                  src="/2025-06-22_4ac94d9dae1a5.webp"
+                  width={300}
+                  height={300}
+                  alt="Controles de Nintendo Switch em suportes impressos em 3D"
+                  className="rounded-md object-cover w-full h-auto"
+                />
+              </Card>
+              <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
+                <Image
+                  src="/WhatsApp Image 2025-07-17 at 11.11.50.jpeg"
+                  width={300}
+                  height={300}
+                  alt="Organizador de jogos de Nintendo Switch impresso em 3D"
+                  className="rounded-md object-cover w-full h-auto"
+                />
+              </Card>
             </div>
           </div>
         </section>
