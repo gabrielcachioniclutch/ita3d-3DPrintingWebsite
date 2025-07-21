@@ -87,7 +87,11 @@ export function VideoCarousel() {
         </h1>
         <p className="max-w-[600px] text-white/90 md:text-xl mt-4 drop-shadow-md">{currentVideo.description}</p>
         <div className="flex flex-col gap-2 min-[400px]:flex-row mt-8">
-          <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+          <Button
+            asChild
+            size="lg"
+            className="bg-gradient-to-r from-gradient-start to-gradient-end text-primary-foreground hover:from-gradient-start/90 hover:to-gradient-end/90"
+          >
             <Link href={currentVideo.buttonLink}>{currentVideo.buttonText}</Link>
           </Button>
         </div>

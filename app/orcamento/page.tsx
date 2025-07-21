@@ -139,7 +139,11 @@ export default function OrcamentoPage() {
                 />
                 {file && <p className="text-sm text-muted-foreground">Arquivo selecionado: {file.name}</p>}
               </div>
-              <Button type="submit" className="w-full" disabled={loading}>
+              <Button
+                type="submit"
+                className="w-full bg-gradient-to-r from-gradient-start to-gradient-end text-primary-foreground hover:from-gradient-start/90 hover:to-gradient-end/90"
+                disabled={loading}
+              >
                 {loading ? "Enviando..." : "Solicitar Orçamento"}
               </Button>
             </form>

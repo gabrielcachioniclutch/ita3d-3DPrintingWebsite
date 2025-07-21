@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss"
 
 const config = {
-  darkMode: ["class"], // Keep dark mode support, but default to light via globals.css
+  darkMode: ["class"],
   content: [
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
@@ -53,6 +53,9 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Novas cores para o gradiente
+        "gradient-start": "hsl(280 80% 60%)", // Roxo vibrante
+        "gradient-end": "hsl(200 100% 50%)", // Azul vibrante
       },
       borderRadius: {
         lg: "var(--radius)",

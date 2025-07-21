@@ -144,7 +144,11 @@ export default function HomePage() {
               </Card>
             </div>
             <div className="text-center mt-8">
-              <Button asChild size="lg">
+              <Button
+                asChild
+                size="lg"
+                className="bg-gradient-to-r from-gradient-start to-gradient-end text-primary-foreground hover:from-gradient-start/90 hover:to-gradient-end/90"
+              >
                 <Link href="/orcamento">Solicitar Orçamento Agora</Link>
               </Button>
             </div>
@@ -156,7 +160,6 @@ export default function HomePage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                {/* Removido o div com o texto "Nossa Galeria" */}
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-foreground">
                   Veja Nossos Trabalhos
                 </h2>
@@ -175,13 +178,6 @@ export default function HomePage() {
                   className="rounded-md object-cover w-full h-auto"
                 />
                 <p className="text-sm text-muted-foreground mt-2">Escultura Sonic 10CM</p>
-              </Card>
-              <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
-                <video controls loop muted className="rounded-md object-cover w-full h-auto">
-                  <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/imprimindo-VfFgmEOIYakSIhPTH0wBSgyAsoIb0f.mp4" type="video/mp4" />
-                  Seu navegador não suporta o elemento de vídeo.
-                </video>
-                <p className="text-sm text-muted-foreground mt-2">Imprimindo teste</p>
               </Card>
               <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
                 <Image
@@ -205,20 +201,6 @@ export default function HomePage() {
                   className="rounded-md object-cover w-full h-auto"
                 />
                 <p className="text-sm text-muted-foreground mt-2">Vaso de planta</p>
-              </Card>
-              <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
-                <video controls loop muted className="rounded-md object-cover w-full h-auto">
-                  <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Alien-z6kquvqw9zZ5qJJ525kKQbC6BG78X0.mp4" type="video/mp4" />
-                  Seu navegador não suporta o elemento de vídeo.
-                </video>
-                <p className="text-sm text-muted-foreground mt-2">Escultura Alien 30CM</p>
-              </Card>
-              <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
-                <video controls loop muted className="rounded-md object-cover w-full h-auto">
-                  <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Video%202025-07-09%20at%2013.20.28-0Xet5gMWzaycvLCIIZCNll1qrbxAB6.mp4" type="video/mp4" />
-                  Seu navegador não suporta o elemento de vídeo.
-                </video>
-                <p className="text-sm text-muted-foreground mt-2">Impressao em processo de um porta chaves</p>
               </Card>
               <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
                 <Image
@@ -262,16 +244,6 @@ export default function HomePage() {
                   replica de uma lente de farol de carro em filamento transparente (esquerda impressa vs direita
                   original)
                 </p>
-              </Card>
-              <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
-                <video controls loop muted className="rounded-md object-cover w-full h-auto">
-                  <source
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SnapInsta.to_AQMwOLY5Lmg6XSSCtesb1yJ0HY0lwJ6MWQqxMF9UXYgYzBD6EJnqOkbKtulnWQSNc-ZG_KH3D9rwvWsapR2mAFqUsUTur2YOIdAz_Zs-hcBtXDVZapXqsZVXRmSQ0isOQL88G4.mp4"
-                    type="video/mp4"
-                  />
-                  Seu navegador não suporta o elemento de vídeo.
-                </video>
-                <p className="text-sm text-muted-foreground mt-2">Impressão 3D em andamento</p>
               </Card>
             </div>
           </div>
