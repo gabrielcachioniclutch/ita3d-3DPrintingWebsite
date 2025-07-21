@@ -33,6 +33,9 @@ export function Header() {
                 <Link href="#contato" className="text-foreground hover:text-primary">
                   Contato
                 </Link>
+                <Link href="#galeria" className="text-foreground hover:text-primary">
+                  Galeria
+                </Link>
                 <Button asChild>
                   <Link href="/orcamento">Solicitar Orçamento</Link>
                 </Button>
@@ -48,6 +51,9 @@ export function Header() {
             </Link>
             <Link href="#contato" className="text-foreground transition-colors hover:text-primary">
               Contato
+            </Link>
+            <Link href="#galeria" className="text-foreground transition-colors hover:text-primary">
+              Galeria
             </Link>
           </nav>
         </div>

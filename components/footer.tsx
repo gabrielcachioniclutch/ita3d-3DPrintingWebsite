@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
+// import { Instagram } from 'lucide-react' // Remover esta importação
 
 export function Footer() {
   return (
@@ -22,6 +23,7 @@ export function Footer() {
           <Link href="/orcamento" className="text-muted-foreground hover:text-primary">
             Orçamento
           </Link>
+          {/* Removido o link do Instagram daqui */}
         </nav>
         <p className="text-sm text-muted-foreground">© 2024 ITA3D. Todos os direitos reservados.</p>
       </div>
