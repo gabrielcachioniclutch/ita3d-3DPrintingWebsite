@@ -21,7 +21,13 @@ export function Header() {
               {/* Mobile Nav Content */}
               <div className="flex flex-col gap-6 pt-6">
                 <Link href="/" className="flex items-center gap-2 font-semibold">
-                  <Image src="/ita3d-logo.png" alt="ITA3D Logo" width={144} height={48} className="h-auto" />
+                  <Image
+                    src="/ita3d-logo.png"
+                    alt="ITA3D Logo"
+                    width={144}
+                    height={48}
+                    className="h-auto animate-hue-shift transition-all duration-300 hover:brightness-110"
+                  />
                   <span className="sr-only">ITA3D</span>
                 </Link>
                 <Link href="/" className="text-foreground hover:text-primary">
@@ -63,7 +69,13 @@ export function Header() {
 
         {/* Center Section (Logo) - positioned absolutely to truly center it */}
         <Link href="/" className="absolute left-1/2 -translate-x-1/2 flex items-center gap-2 font-semibold">
-          <Image src="/ita3d-logo.png" alt="ITA3D Logo" width={144} height={48} className="h-auto" />
+          <Image
+            src="/ita3d-logo.png"
+            alt="ITA3D Logo"
+            width={144}
+            height={48}
+            className="h-auto animate-hue-shift transition-all duration-300 hover:brightness-110"
+          />
           <span className="sr-only">ITA3D</span>
         </Link>
 

@@ -38,6 +38,15 @@
   .dark {
     /* No need to redefine, as the default is now dark */
   }
+
+  @keyframes hue-shift {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
 }
 
 @layer base {

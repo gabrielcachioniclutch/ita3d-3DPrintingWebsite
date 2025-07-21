@@ -7,7 +7,13 @@ export function Footer() {
     <footer className="border-t border-border bg-secondary py-8">
       <div className="container flex flex-col items-center justify-between gap-4 px-4 md:flex-row md:px-6">
         <div className="flex items-center gap-2">
-          <Image src="/ita3d-logo.png" alt="ITA3D Logo" width={144} height={48} className="h-auto" />
+          <Image
+            src="/ita3d-logo.png"
+            alt="ITA3D Logo"
+            width={144}
+            height={48}
+            className="h-auto animate-hue-shift transition-all duration-300 hover:brightness-110"
+          />
           <span className="sr-only">ITA3D</span>
         </div>
         <nav className="flex flex-wrap justify-center gap-4 text-sm md:gap-6">

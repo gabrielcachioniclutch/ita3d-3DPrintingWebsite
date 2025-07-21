@@ -175,9 +175,21 @@ export default function HomePage() {
                   width={300}
                   height={300}
                   alt="Escultura Sonic 10CM"
-                  className="rounded-md object-cover w-full h-auto"
+                  className="rounded-md object-cover w-full h-auto transition-all duration-300 hover:brightness-110"
                 />
                 <p className="text-sm text-muted-foreground mt-2">Escultura Sonic 10CM</p>
+              </Card>
+              <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
+                <video
+                  controls
+                  loop
+                  muted
+                  className="rounded-md object-cover w-full h-auto transition-all duration-300 hover:brightness-110"
+                >
+                  <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/imprimindo-VfFgmEOIYakSIhPTH0wBSgyAsoIb0f.mp4" type="video/mp4" />
+                  Seu navegador não suporta o elemento de vídeo.
+                </video>
+                <p className="text-sm text-muted-foreground mt-2">Imprimindo teste</p>
               </Card>
               <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
                 <Image
@@ -185,7 +197,7 @@ export default function HomePage() {
                   width={300}
                   height={300}
                   alt="A primeira impressora, onde tudo começou, hoje temos diferentes impressoras para tipos diferentes de serviços."
-                  className="rounded-md object-cover w-full h-auto"
+                  className="rounded-md object-cover w-full h-auto transition-all duration-300 hover:brightness-110"
                 />
                 <p className="text-sm text-muted-foreground mt-2">
                   A primeira impressora, onde tudo começou, hoje temos diferentes impressoras para tipos diferentes de
@@ -198,9 +210,33 @@ export default function HomePage() {
                   width={300}
                   height={300}
                   alt="Vaso de planta"
-                  className="rounded-md object-cover w-full h-auto"
+                  className="rounded-md object-cover w-full h-auto transition-all duration-300 hover:brightness-110"
                 />
                 <p className="text-sm text-muted-foreground mt-2">Vaso de planta</p>
+              </Card>
+              <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
+                <video
+                  controls
+                  loop
+                  muted
+                  className="rounded-md object-cover w-full h-auto transition-all duration-300 hover:brightness-110"
+                >
+                  <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Alien-z6kquvqw9zZ5qJJ525kKQbC6BG78X0.mp4" type="video/mp4" />
+                  Seu navegador não suporta o elemento de vídeo.
+                </video>
+                <p className="text-sm text-muted-foreground mt-2">Escultura Alien 30CM</p>
+              </Card>
+              <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
+                <video
+                  controls
+                  loop
+                  muted
+                  className="rounded-md object-cover w-full h-auto transition-all duration-300 hover:brightness-110"
+                >
+                  <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Video%202025-07-09%20at%2013.20.28-0Xet5gMWzaycvLCIIZCNll1qrbxAB6.mp4" type="video/mp4" />
+                  Seu navegador não suporta o elemento de vídeo.
+                </video>
+                <p className="text-sm text-muted-foreground mt-2">Impressao em processo de um porta chaves</p>
               </Card>
               <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
                 <Image
@@ -208,17 +244,18 @@ export default function HomePage() {
                   width={300}
                   height={300}
                   alt="Suporte para Headset VR Meta Quest 3"
-                  className="rounded-md object-cover w-full h-auto"
+                  className="rounded-md object-cover w-full h-auto transition-all duration-300 hover:brightness-110"
                 />
                 <p className="text-sm text-muted-foreground mt-2">Suporte para Headset VR Meta Quest 3</p>
               </Card>
+              {/* Novas imagens adicionadas */}
               <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
                 <Image
                   src="/2025-06-22_4ac94d9dae1a5.webp"
                   width={300}
                   height={300}
                   alt="Controles Nintendo Switch 2"
-                  className="rounded-md object-cover w-full h-auto"
+                  className="rounded-md object-cover w-full h-auto transition-all duration-300 hover:brightness-110"
                 />
                 <p className="text-sm text-muted-foreground mt-2">Controles Nintendo Switch 2</p>
               </Card>
@@ -228,22 +265,39 @@ export default function HomePage() {
                   width={300}
                   height={300}
                   alt="Orgnanizador de jogos e cartuchos nintendo switch"
-                  className="rounded-md object-cover w-full h-auto"
+                  className="rounded-md object-cover w-full h-auto transition-all duration-300 hover:brightness-110"
                 />
                 <p className="text-sm text-muted-foreground mt-2">Orgnanizador de jogos e cartuchos nintendo switch</p>
               </Card>
+              {/* Nova imagem de lente de carro */}
               <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
                 <Image
                   src="/WhatsApp Image 2025-07-21 at 12.16.53.jpeg"
                   width={300}
                   height={300}
-                  alt="Réplica de lente de carro em filamento transparente (esquerda impressa vs direita original)"
-                  className="rounded-md object-cover w-full h-auto"
+                  alt="Réplica de lente de carro em filamento transparente"
+                  className="rounded-md object-cover w-full h-auto transition-all duration-300 hover:brightness-110"
                 />
                 <p className="text-sm text-muted-foreground mt-2">
                   replica de uma lente de farol de carro em filamento transparente (esquerda impressa vs direita
                   original)
                 </p>
+              </Card>
+              {/* Novo vídeo adicionado */}
+              <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
+                <video
+                  controls
+                  loop
+                  muted
+                  className="rounded-md object-cover w-full h-auto transition-all duration-300 hover:brightness-110"
+                >
+                  <source
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SnapInsta.to_AQMwOLY5Lmg6XSSCtesb1yJ0HY0lwJ6MWQqxMF9UXYgYzBD6EJnqOkbKtulnWQSNc-ZG_KH3D9rwvWsapR2mAFqUsUTur2YOIdAz_Zs-hcBtXDVZapXqsZVXRmSQ0isOQL88G4.mp4"
+                    type="video/mp4"
+                  />
+                  Seu navegador não suporta o elemento de vídeo.
+                </video>
+                <p className="text-sm text-muted-foreground mt-2">Impressão 3D em andamento</p>
               </Card>
             </div>
           </div>
