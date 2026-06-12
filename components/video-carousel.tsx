@@ -21,8 +21,9 @@ const slides: VideoSlide[] = [
     title: "Sua Visão 3D, Realizada.",
     description:
       "Transformamos suas ideias em realidade com serviços de impressão 3D de alta qualidade, projetos especializados e consultoria técnica.",
-    buttonText: "Solicitar Orçamento",
-    buttonLink: "/orcamento",
+    buttonText: "Orçamento no WhatsApp",
+    buttonLink:
+      "https://wa.me/5513997093248?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20quero%20fazer%20um%20or%C3%A7amento.",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Alien-z6kquvqw9zZ5qJJ525kKQbC6BG78X0.mp4",
@@ -92,7 +93,13 @@ export function VideoCarousel() {
             size="lg"
             className="bg-gradient-to-r from-gradient-start to-gradient-end text-primary-foreground hover:from-gradient-start/90 hover:to-gradient-end/90"
           >
-            <Link href={currentVideo.buttonLink}>{currentVideo.buttonText}</Link>
+            {currentVideo.buttonLink.startsWith("http") ? (
+              <a href={currentVideo.buttonLink} target="_blank" rel="noopener noreferrer">
+                {currentVideo.buttonText}
+              </a>
+            ) : (
+              <Link href={currentVideo.buttonLink}>{currentVideo.buttonText}</Link>
+            )}
           </Button>
         </div>
       </div>
