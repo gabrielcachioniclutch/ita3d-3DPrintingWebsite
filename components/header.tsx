@@ -51,7 +51,7 @@ export function Header() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Falar no WhatsApp
+                    Orçamento no WhatsApp
                   </a>
                 </Button>
               </div>
@@ -96,7 +96,7 @@ export function Header() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Falar no WhatsApp
+              Orçamento no WhatsApp
             </a>
           </Button>
         </div>

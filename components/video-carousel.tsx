@@ -21,7 +21,7 @@ const slides: VideoSlide[] = [
     title: "Sua Visão 3D, Realizada.",
     description:
       "Transformamos suas ideias em realidade com serviços de impressão 3D de alta qualidade, projetos especializados e consultoria técnica.",
-    buttonText: "Falar no WhatsApp",
+    buttonText: "Orçamento no WhatsApp",
     buttonLink:
       "https://wa.me/5513997093248?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20quero%20fazer%20um%20or%C3%A7amento.",
   },

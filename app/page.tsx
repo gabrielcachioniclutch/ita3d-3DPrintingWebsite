@@ -153,7 +153,7 @@ export default function HomePage() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Falar no WhatsApp
+                  Orçamento no WhatsApp
                 </a>
               </Button>
             </div>
