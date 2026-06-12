@@ -304,6 +304,53 @@ export default function HomePage() {
                 </video>
                 <p className="text-sm text-muted-foreground mt-2">Impressão 3D em andamento</p>
               </Card>
+              {/* Novas imagens adicionadas em junho/2026 */}
+              <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
+                <Image
+                  src="/galeria-estatua-miles-morales.jpeg"
+                  width={300}
+                  height={300}
+                  alt="Estátua do Homem-Aranha (Miles Morales) impressa e pintada à mão"
+                  className="rounded-md object-cover w-full h-auto transition-all duration-300 hover:brightness-110"
+                />
+                <p className="text-sm text-muted-foreground mt-2">
+                  Estátua do Homem-Aranha (Miles Morales) impressa e pintada à mão
+                </p>
+              </Card>
+              <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
+                <Image
+                  src="/galeria-suporte-celular.jpeg"
+                  width={300}
+                  height={300}
+                  alt="Suporte de celular personalizado em laranja"
+                  className="rounded-md object-cover w-full h-auto transition-all duration-300 hover:brightness-110"
+                />
+                <p className="text-sm text-muted-foreground mt-2">Suporte de celular personalizado</p>
+              </Card>
+              <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
+                <Image
+                  src="/galeria-organizador-hexagonal.jpeg"
+                  width={300}
+                  height={300}
+                  alt="Sistema de organização de parede em painel hexagonal com suportes impressos"
+                  className="rounded-md object-cover w-full h-auto transition-all duration-300 hover:brightness-110"
+                />
+                <p className="text-sm text-muted-foreground mt-2">
+                  Sistema modular de organização de parede em painel hexagonal
+                </p>
+              </Card>
+              <Card className="flex flex-col items-center p-2 bg-card/80 backdrop-blur-md text-card-foreground border-border">
+                <Image
+                  src="/galeria-bambulab-p2s.jpeg"
+                  width={300}
+                  height={300}
+                  alt="Impressora Bambu Lab P2S com sistema AMS e acessórios impressos em 3D"
+                  className="rounded-md object-cover w-full h-auto transition-all duration-300 hover:brightness-110"
+                />
+                <p className="text-sm text-muted-foreground mt-2">
+                  Nosso parque de impressão: Bambu Lab P2S com AMS e acessórios próprios
+                </p>
+              </Card>
             </div>
           </div>
         </section>
