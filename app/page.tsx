@@ -1,5 +1,4 @@
 import Image from "next/image"
-import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Mail, PhoneIcon as Whatsapp, MapPin, Instagram } from "lucide-react"
@@ -114,11 +113,11 @@ export default function HomePage() {
                 <CardDescription>Fale conosco diretamente pelo WhatsApp para um atendimento rápido.</CardDescription>
                 <Button variant="link" asChild className="mt-4 text-primary hover:text-accent">
                   <a
-                    href="https://wa.me/5511982134616?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20quero%20fazer%20um%20or%C3%A7amento."
+                    href="https://wa.me/5513997093248?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20quero%20fazer%20um%20or%C3%A7amento."
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    +55 11 98213-4616
+                    +55 (13) 99709-3248
                   </a>
                 </Button>
               </Card>
@@ -149,7 +148,13 @@ export default function HomePage() {
                 size="lg"
                 className="bg-gradient-to-r from-gradient-start to-gradient-end text-primary-foreground hover:from-gradient-start/90 hover:to-gradient-end/90"
               >
-                <Link href="/orcamento">Solicitar Orçamento Agora</Link>
+                <a
+                  href="https://wa.me/5513997093248?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20quero%20fazer%20um%20or%C3%A7amento."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Falar no WhatsApp
+                </a>
               </Button>
             </div>
           </div>

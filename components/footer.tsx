@@ -26,9 +26,6 @@ export function Footer() {
           <Link href="#contato" className="text-muted-foreground hover:text-primary">
             Contato
           </Link>
-          <Link href="/orcamento" className="text-muted-foreground hover:text-primary">
-            Orçamento
-          </Link>
           {/* Removido o link do Instagram daqui */}
         </nav>
         <p className="text-sm text-muted-foreground">© 2024 ITA3D. Todos os direitos reservados.</p>
